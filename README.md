@@ -6,7 +6,7 @@ A deep learning web app that recognizes handwritten digits (0–9) using a Convo
 
 ## 🚀 Live Demo
 
-> 🔗 Coming soon — will be deployed on [Render](https://render.com)
+> 🌐 **Try it here**: [https://handwritten-digit-recognizer-0-9.streamlit.app](https://handwritten-digit-recognizer-0-9.streamlit.app)
 
 > 🧠 Accuracy: ~99% (on MNIST test dataset)
 
@@ -18,7 +18,7 @@ A deep learning web app that recognizes handwritten digits (0–9) using a Convo
 - 🧼 Includes data preprocessing, normalization, and reshaping
 - 🧠 Trained and evaluated using TensorFlow + Keras
 - 💾 Model exported in `.keras` format for deployment
-- 🌐 Deployed as a web app using Streamlit + Render (see below)
+- 🖥️ Deployed using [Streamlit Community Cloud](https://streamlit.io/cloud)
 - 📓 [View Model Training Notebook (Google Colab)](https://colab.research.google.com/drive/1a3pRoHhAaRTQgCU79KeT-O9g5YZ37Cty?usp=sharing)
 
 ---
@@ -40,7 +40,7 @@ A deep learning web app that recognizes handwritten digits (0–9) using a Convo
 |------------------------|-----------------------------------|
 | Python                 | Core programming language         |
 | TensorFlow/Keras       | Deep learning model building      |
-| Streamlit              | Web app framework (frontend/backend) |
+| Streamlit              | Interactive Web app framework     |
 | OpenCV + Pillow        | Image handling & preprocessing    |
 | NumPy                  | Data handling and transformations |
 | Google Colab           | Model training & experimentation  |
@@ -51,12 +51,13 @@ A deep learning web app that recognizes handwritten digits (0–9) using a Convo
 ## 📂 Project Structure
 
 ```bash
-├── app.py                      # Streamlit application
-├── digit_recognizer_model.keras  # Trained model
-├── requirements.txt            # Python dependencies
-├── setup.sh                    # Auto setup script (optional use)
-├── README.md                   # Project documentation
-├── digit_training.ipynb       # 📓 Google Colab notebook (also linked above)
+📁 handwritten-digit-recognizer
+├── app.py                          # Streamlit application
+├── digit_recognizer_model.keras    # Trained model
+├── requirements.txt                # Python dependencies
+├── setup.sh                        # Auto setup script (optional use)
+├── README.md                       # Project documentation
+├── digit_training.ipynb            # 📓 Google Colab notebook (also linked above)
 ```
 
 
@@ -87,11 +88,11 @@ streamlit run app.py
 
 ## 🧠 What I Learned
 
-- Practical application of CNNs in image classification tasks  
-- Working with the MNIST dataset end-to-end (EDA, training, evaluation)  
-- Real-time digit recognition using Streamlit + OpenCV  
-- Model saving/loading workflows using `.keras` format  
-- GitHub version control and preparing for deployment using Render  
+- 🧠 How to build CNNs for image classification
+- 🧪 Training, evaluating, and saving models with TensorFlow
+- 🎨 Integrating OpenCV with Streamlit for live image processing
+- 🌐 Deploying AI models on Streamlit Cloud
+- 🗂️ Writing clean code, version control, and production-readiness 
 
 ---
 
@@ -106,4 +107,4 @@ This project is released under the **MIT License** – free to use, modify, and 
 
 I'm **Shivam Bhati**, an aspiring AI developer passionate about building real-world applications through hands-on projects. I enjoy translating complex deep learning ideas into accessible web apps.
 
-> 🌐 [Connect on LinkedIn](https://www.linkedin.com/in/shivam-bhati-dev/)
+> 🔗 [Connect on LinkedIn](https://www.linkedin.com/in/shivam-bhati-dev/)

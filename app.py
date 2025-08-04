@@ -67,4 +67,3 @@ with col2:
 
             if feedback:
                 st.markdown("✔️ Thank you for the feedback! Let's do it again.")
-git status
