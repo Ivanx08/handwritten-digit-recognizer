@@ -67,3 +67,14 @@ with col2:
 
             if feedback:
                 st.markdown("✔️ Thank you for the feedback! Let's do it again.")
+
+
+# Signature block
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center;'>"
+    "Made with ❤️ | Author: <strong>Shivam Bhati</strong><br>"
+    "<em>Codec Technologies Internship Project</em>"
+    "</div>",
+    unsafe_allow_html=True
+)
