@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 import cv2
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # Load the pre-trained digit recognition model
 # This is cached so it loads only once when the app starts
