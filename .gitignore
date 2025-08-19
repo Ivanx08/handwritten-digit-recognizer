@@ -1,43 +1,7 @@
-# Byte-compiled / cache files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
+.ipynb_checkpoints/
 venv/
 .env/
-.env.bak/
-.venv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Model files (large/binary) – keep only the latest .keras if needed
-*.h5
-*.hdf5
-*.keras
-*.pkl
-
-# Logs
 *.log
-
-# OS-specific junk
-.DS_Store
+*.DS_Store
 Thumbs.db
-
-# IDE settings
-.vscode/
-.idea/
-
-# Build / distribution
-build/
-dist/
-*.egg-info/
-
-# Temporary files
-*.tmp
-*.swp
-*.bak
-
-# Dev containers (not needed on Streamlit Cloud)
-.devcontainer/
